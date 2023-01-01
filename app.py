@@ -7,7 +7,7 @@ from dash import dash_table
 
 MAX_PUNKTE_DEFAULT = 44
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title="Notenrechner (PSA)")
 
 server = app.server
 
